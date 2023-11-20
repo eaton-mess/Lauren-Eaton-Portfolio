@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  background-color: #659DBD;
+}
+
+@media {
+  
+}
+/*added nav css content*/
+body{
+  background-color:#fff;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin:20px;
+}
+.container {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 10px; 
+}
+#logo{
+  border:3px solid;
+  padding:0 10px;
+}
+#navbar li{
+  display:inline-block;
+}
+#navbar a{
+  text-decoration:none;
+  font-size:20px;
+  padding-right:15px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+img {
+  width: 260px;
+  border-radius: 50%;
+  justify-content: center;
+  border: #3388ba 3px solid;
+  padding: 5px;
+}
+
+
