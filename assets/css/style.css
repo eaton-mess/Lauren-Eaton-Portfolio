@@ -1,19 +1,18 @@
 * {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family:Arial, Helvetica, sans-serif
   line-height: 1.5;
 }
 
 header {
-padding: 20px;
-font-family: Arial, Helvetica, sans-serif;
-background-color: rgb(9, 42, 78);
-color: white;
+  padding: 20px;
+  background-color: rgb(9, 42, 78);
+  color: white;
 }
 
 h1 {
@@ -24,7 +23,7 @@ h1 {
 }
 
 nav {
-display: inline;
+  display: inline;
 }
 
 ul {
@@ -47,26 +46,35 @@ li a {
   text-decoration: none;
 }
 
+/*hero banner css properties*/
+.hero-banner {
+  background-image: url(../images/Miyajima.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  position: relative;
+}
+
 .inner-image {
   border-radius: 50%;
-  width: 250px;
+  width: 220px;
   border: white 3px solid;
   padding: 5px;
+  margin: 15px;
+}
+
+.hero-banner h2 {
   position: absolute;
-  top: 120px;
-  left: 40px;
+  bottom: 8px;
+  right: 16px;
+  background-color: rgb(9, 42, 78);
+  color: white;
+  border: solid;
+  padding: 3px;
 }
 
-.outer-image {
-  width: 100%;
-  opacity: 0.5;
-}
-
-h2 {
-  position: relative;
-  top: 18px;
-  left: 10px;
-}
+h2,
 h3,
 h4,
 h5,
