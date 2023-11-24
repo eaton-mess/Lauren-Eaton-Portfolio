@@ -76,24 +76,23 @@ li a {
 }
 
 /*about me section*/
-/*edit all header sections to be the same font size*/
 .about-me-title {
   margin: 50px;
   font-size: 30px;
   text-align: end;
 }
 
-.about-me-section {
+#about {
   display: flex;
   margin: 30px;
   font-size: 20px;
   align-items: center;
 }
 
-.about-me-section h2 {
+#about h2 {
   font-size: 40px;
   border-right: rgb(9, 42, 78)solid 5px;
-  padding: 40px;
+  padding: 30px;
 }
 
 .about-me-text {
@@ -102,8 +101,6 @@ li a {
 }
 
 /*project content section*/
-
-/*edit all header sections to be the same font size*/
 .page-section {
   padding: 20px;
   margin: 30px;
@@ -119,13 +116,14 @@ li a {
 
 .project-content {
   margin: 0px 5%;
+  padding: 50px;
   display: grid;
-  grid-template-rows: 350px 350px 350px;
-  grid-template-columns: 450px 450px 450px;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns: 300px 300px 300px 300px;
   grid-template-areas: 
-  "horiseon horiseon horiseon"
-  "project2 project2 project3"
-  "project4 project5 project5"
+  "horiseon horiseon horiseon horiseon"
+  "project2 project2 project3 project3"
+  "project4 project4 project5 project5"
   ;
 }
 
@@ -163,7 +161,7 @@ li a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 5px;
+  margin: 10px;
   cursor: pointer;
   display: grid;
   align-content: end;
@@ -185,41 +183,27 @@ li a {
 }
 
 /*contact section*/
-.page-section-contact {
+#contact-me {
   display: flex;
   margin: 30px;
   font-size: 20px;
   align-items: center;
 }
 
-.page-section-contact h2 {
+#contact-me h2 {
   font-size: 40px;
   border-right: rgb(9, 42, 78)solid 5px;
-  padding: 40px;
+  padding: 17px;
 }
 
-/*CV section*/
-.page-section-cv {
-  display: flex;
-  margin: 30px;
-  font-size: 20px;
-  align-items: center;
+#contact-me li img {
+height: 50px;
+width: 55px;
 }
 
-.page-section-cv h2 {
-  font-size: 40px;
-  border-right: rgb(9, 42, 78)solid 5px;
-  padding: 40px;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
+#contact-me ul{
+  width:100vw;
+  display:flex;
+  justify-content: space-around;
+  gap:10vw;
 }
