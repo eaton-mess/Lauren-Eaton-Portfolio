@@ -4,7 +4,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   line-height: 1.5;
 }
@@ -44,6 +44,7 @@ li a {
   text-align: center;
   padding: 18px;
   text-decoration: none;
+  font-size: 20px;
 }
 
 /*hero banner css properties*/
@@ -68,10 +69,147 @@ li a {
   position: absolute;
   bottom: 8px;
   right: 16px;
-  background-color: rgb(9, 42, 78);
+  background-color: rgb(23, 67, 114);
   color: white;
   border: solid;
   padding: 3px;
+}
+
+/*about me section*/
+/*edit all header sections to be the same font size*/
+.about-me-title {
+  margin: 50px;
+  font-size: 30px;
+  text-align: end;
+}
+
+.about-me-section {
+  display: flex;
+  margin: 30px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.about-me-section h2 {
+  font-size: 40px;
+  border-right: rgb(9, 42, 78)solid 5px;
+  padding: 40px;
+}
+
+.about-me-text {
+  padding: 30px;
+  text-align: justify;
+}
+
+/*project content section*/
+
+/*edit all header sections to be the same font size*/
+.page-section {
+  padding: 20px;
+  margin: 30px;
+  font-size: 30px;
+  display: flex;
+}
+
+.projects-title {
+  font-size: 40px;
+  border-right: rgb(9, 42, 78)solid 5px;
+  padding: 18px;
+}
+
+.project-content {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-columns: 450px 450px 450px;
+  grid-template-areas: 
+  "horiseon horiseon horiseon"
+  "project2 project2 project3"
+  "project4 project5 project5"
+  ;
+}
+
+#horiseon {
+  grid-area: horiseon;
+  background-image: url("../images/horiseon.jpeg");
+  border: solid 3px rgb(9, 42, 78);
+
+}
+#project2 {
+  grid-area: project2;
+  background-image: url("../images/placeholder.png");
+  border: solid 3px rgb(9, 42, 78);
+}
+
+#project3 {
+  grid-area: project3;
+  background-image: url("../images/placeholder.png");
+  border: solid 3px rgb(9, 42, 78);
+}
+
+#project4 {
+  grid-area: project4;
+  background-image: url("../images/placeholder.png");
+  border: solid 3px rgb(9, 42, 78);
+}
+
+#project5 {
+  grid-area: project5;
+  background-image: url("../images/placeholder.png");
+  border: solid 3px rgb(9, 42, 78);
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+.headings {
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-top: 5px solid rgb(23, 67, 114);
+}
+
+.project-content div {
+  text-align: start;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/*contact section*/
+.page-section-contact {
+  display: flex;
+  margin: 30px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.page-section-contact h2 {
+  font-size: 40px;
+  border-right: rgb(9, 42, 78)solid 5px;
+  padding: 40px;
+}
+
+/*CV section*/
+.page-section-cv {
+  display: flex;
+  margin: 30px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.page-section-cv h2 {
+  font-size: 40px;
+  border-right: rgb(9, 42, 78)solid 5px;
+  padding: 40px;
 }
 
 h2,
