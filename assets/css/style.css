@@ -194,13 +194,19 @@ li a {
 }
 
 #contact-me li img {
-height: 50px;
-width: 55px;
+height: 60px;
+width: 65px;
 }
 
 #contact-me ul{
   width:100vw;
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
   gap:10vw;
+}
+
+footer {
+  background-color: rgb(9, 42, 78);
+  color: white;
+  padding-left: 10px;
 }
