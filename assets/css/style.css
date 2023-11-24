@@ -169,16 +169,12 @@ li a {
 
 .headings {
   background-color: rgba(0,0,0,0.7);
-  padding: 15px;
-  height: 25px;
   color: white;
   font-size: 18px;
   border-top: 5px solid rgb(23, 67, 114);
 }
 
 .project-content div {
-  text-align: start;
-  padding: 20px 0;
   font-size: 30px;
 }
 
@@ -193,7 +189,8 @@ li a {
 #contact-me h2 {
   font-size: 40px;
   border-right: rgb(9, 42, 78)solid 5px;
-  padding: 17px;
+  padding: 20px;
+  text-align: end;
 }
 
 #contact-me li img {
