@@ -122,6 +122,7 @@ li a {
   grid-template-columns: 300px 300px 300px 300px;
   grid-template-areas: 
   "horiseon horiseon horiseon horiseon"
+  "horiseon horiseon horiseon horiseon"
   "project2 project2 project3 project3"
   "project4 project4 project5 project5"
   ;
@@ -129,10 +130,18 @@ li a {
 
 #horiseon {
   grid-area: horiseon;
-  background-image: url("../images/horiseon.jpeg");
   border: solid 3px rgb(9, 42, 78);
-
+  position: relative;
 }
+
+#horiseon img {
+height: 524px;
+width: 1175px;
+object-fit:cover;
+position: absolute;
+top: 0px;
+}
+
 #project2 {
   grid-area: project2;
   background-image: url("../images/placeholder.png");
@@ -155,6 +164,10 @@ li a {
   grid-area: project5;
   background-image: url("../images/placeholder.png");
   border: solid 3px rgb(9, 42, 78);
+}
+
+.project-content .headings {
+  padding-left: 5px;
 }
 
 .categoryGridArea {
