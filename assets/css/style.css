@@ -128,34 +128,47 @@ li a {
   ;
 }
 
+#horiseon-div {
+  background-image: url(../images/horiseon.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
 #horiseon {
   grid-area: horiseon;
   border: solid 3px rgb(9, 42, 78);
- background-image: url(../images/horiseon.jpeg);
+  overflow: hidden;
+  margin: 10px;
 }
 
 #project2 {
   grid-area: project2;
   background-image: url("../images/placeholder.png");
   border: solid 3px rgb(9, 42, 78);
+  margin: 10px;
 }
 
 #project3 {
   grid-area: project3;
   background-image: url("../images/placeholder.png");
   border: solid 3px rgb(9, 42, 78);
+  margin: 10px;
 }
 
 #project4 {
   grid-area: project4;
   background-image: url("../images/placeholder.png");
   border: solid 3px rgb(9, 42, 78);
+  margin: 10px;
 }
 
 #project5 {
   grid-area: project5;
   background-image: url("../images/placeholder.png");
   border: solid 3px rgb(9, 42, 78);
+  margin: 10px;
 }
 
 .project-content .headings {
@@ -166,7 +179,6 @@ li a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 10px;
   cursor: pointer;
   display: grid;
   align-content: end;
