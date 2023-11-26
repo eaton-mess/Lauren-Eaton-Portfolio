@@ -229,10 +229,18 @@ footer {
 }
 
 /*media queries*/
-@media only screen and (max-width: 600px) {
-  header, section {
-    position: static;
-    margin: 20px;
-  }
+@media only screen and (max-width: 1000px) {
+nav {
+  display: none;
 }
+}
+
+@media only screen and (max-width: 600px) {
+  #name {
+    position: static;
+  }
+  .hero-banner h2 {
+    display: none;
+  }
+  }
 
