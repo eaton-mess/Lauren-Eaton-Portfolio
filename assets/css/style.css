@@ -131,15 +131,7 @@ li a {
 #horiseon {
   grid-area: horiseon;
   border: solid 3px rgb(9, 42, 78);
-  position: relative;
-}
-
-#horiseon img {
-height: 524px;
-width: 1175px;
-object-fit:cover;
-position: absolute;
-top: 0px;
+ background-image: url(../images/horiseon.jpeg);
 }
 
 #project2 {
@@ -223,3 +215,12 @@ footer {
   color: white;
   padding-left: 10px;
 }
+
+/*media queries*/
+@media only screen and (max-width: 600px) {
+  header, section {
+    position: static;
+    margin: 20px;
+  }
+}
+
