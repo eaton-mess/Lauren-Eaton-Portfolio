@@ -116,6 +116,7 @@ li a {
 
 .project-content {
   margin: 0px 5%;
+  max-width: 1200px;
   padding: 50px;
   display: grid;
   grid-template-rows: 300px 300px 300px 300px;
@@ -235,12 +236,50 @@ nav {
 }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   #name {
     position: static;
   }
   .hero-banner h2 {
     display: none;
+  }
+
+  .project-content {
+    height: 600px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 300px 300px;
+    grid-template-areas: 
+    "horiseon"
+    "project2"
+    "project3"
+    "project4"
+    "project5";
+  }
+  .about-me-title {
+    display: none;
+  }
+  .about-me-text {
+    font-size: 15px;
+    display: 
+  }
+  .projects-title {
+    display: none;
+  }
+
+  .contact-me-title {
+    display: none;
+  }
+  #contact-me li img {
+    height: 30px;
+    width: 35px;
+  }
+  #contact-me div {
+    font-size: 15px;
+  }
+
+  footer {
+    font-size: 15px;
   }
   }
 
