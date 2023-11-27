@@ -55,11 +55,12 @@ li a {
   background-repeat: no-repeat;
   height: 250px;
   position: relative;
+  max-width:100%;
 }
 
 .inner-image {
   border-radius: 50%;
-  width: 220px;
+  max-width: 220px;
   border: white 3px solid;
   padding: 5px;
   margin: 15px;
@@ -116,7 +117,7 @@ li a {
 
 .project-content {
   margin: 0px 5%;
-  max-width: 1200px;
+  max-width:100%;
   padding: 50px;
   display: grid;
   grid-template-rows: 300px 300px 300px 300px;
@@ -227,6 +228,7 @@ footer {
   background-color: rgb(9, 42, 78);
   color: white;
   padding-left: 10px;
+  max-width:100%;
 }
 
 /*media queries*/
@@ -243,9 +245,12 @@ nav {
   .hero-banner h2 {
     display: none;
   }
-
+.inner-image {
+  max-width: 150px;
+}
   .project-content {
     height: 600px;
+    max-width:100%;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 300px 300px;
@@ -261,12 +266,10 @@ nav {
   }
   .about-me-text {
     font-size: 15px;
-    display: 
   }
   .projects-title {
     display: none;
   }
-
   .contact-me-title {
     display: none;
   }
@@ -277,7 +280,6 @@ nav {
   #contact-me div {
     font-size: 15px;
   }
-
   footer {
     font-size: 15px;
   }
