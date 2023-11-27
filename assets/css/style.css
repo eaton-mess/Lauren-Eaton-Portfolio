@@ -230,58 +230,88 @@ footer {
   padding-left: 10px;
   max-width:100%;
 }
-
-/*media queries*/
-@media only screen and (max-width: 1000px) {
-nav {
-  display: none;
+body {
+  font-size: 16px;
 }
-}
+  
+  @media only screen and (max-width: 768px) {
+    #name {
+      position: static;
+    }
+    .hero-banner h2 {
+      display: none;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul {
+      display: block;
+      padding: 0;
+    }
+  
+    nav li {
+      margin-bottom: 10px;
+    }
 
-@media only screen and (max-width: 768px) {
-  #name {
-    position: static;
+    nav li a {
+      font-size: 15px;
+      text-align: center;
+    }
+  .inner-image {
+    max-width: 150px;
   }
-  .hero-banner h2 {
-    display: none;
-  }
-.inner-image {
-  max-width: 150px;
-}
-  .project-content {
-    height: 600px;
-    max-width:100%;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 300px 300px;
-    grid-template-areas: 
-    "horiseon"
-    "project2"
-    "project3"
-    "project4"
-    "project5";
-  }
-  .about-me-title {
-    display: none;
-  }
-  .about-me-text {
-    font-size: 15px;
-  }
-  .projects-title {
-    display: none;
-  }
-  .contact-me-title {
-    display: none;
-  }
-  #contact-me li img {
-    height: 30px;
-    width: 35px;
-  }
-  #contact-me div {
-    font-size: 15px;
-  }
-  footer {
-    font-size: 15px;
-  }
-  }
+    .project-content {
+      height: 600px;
+      max-width:100%;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 300px 300px;
+      grid-template-areas: 
+      "horiseon"
+      "project2"
+      "project3"
+      "project4"
+      "project5";
+    }
+    .about-me-title,
+    .projects-title,
+    .contact-me-title {
+      display: block;
+      text-align: center;
+    }
+    #about h2 {
+      font-size: 20px;
+      margin: 0;
+    }
+    #projects h2 {
+      font-size: 20px;
+      margin: -15px;
+    }
+    #contact-me h2 {
+      font-size: 20px;
+      margin: -10px;
+    }
 
+    .about-me-text {
+      font-size: 15px;
+    }
+    #contact-me ul {
+      flex-direction: column;
+      margin: 40px;
+    }
+    #contact-me li img {
+      height: 30px;
+      width: 35px;
+      margin-right: 350px;
+    }
+    #contact-me div {
+      font-size: 15px;
+      margin-bottom: -70px;
+    }
+    footer {
+      font-size: 15px;
+    }
+  }
