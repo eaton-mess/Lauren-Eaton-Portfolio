@@ -184,6 +184,11 @@ li a {
   cursor: pointer;
   display: grid;
   align-content: end;
+  transition: all .2s ease-in-out;
+}
+
+.categoryGridArea:hover {
+  transform: scale(1.1); 
 }
 
 .headings {
@@ -215,6 +220,11 @@ li a {
 #contact-me li img {
 height: 60px;
 width: 65px;
+transition: all .2s ease-in-out;
+}
+
+#contact-me li img:hover {
+  transform: scale(1.1); 
 }
 
 #contact-me ul{
