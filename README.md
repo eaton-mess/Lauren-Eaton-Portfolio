@@ -20,7 +20,9 @@ The projects section contains a grid detailing all existing projects as well as 
 
 In addition to this, the Contacts section contains not only links to my personal instagram and LinkedIn profile, it contains a gmail icon that, when pressed, will automatically direct the user to their default application to initiate an e-mail.
 
-![alt text]
+![alt text](https://github.com/eatontechnology/Lauren-Eaton-Portfolio/blob/main/assets/images/screenshot%20desktop.jpeg)
+![alt text](https://github.com/eatontechnology/Lauren-Eaton-Portfolio/blob/main/assets/images/screenshot%20mobile.jpeg)
+
 
 ## Author
 
