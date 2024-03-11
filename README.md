@@ -27,7 +27,7 @@ In addition to this, the Contacts section contains not only links to my personal
 ## Author
 
 Lauren Eaton
-https://github.com/eatontechnology
+https://github.com/eaton-mess
 
 ## License
 
